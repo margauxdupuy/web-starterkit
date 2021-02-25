@@ -1,0 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom css */
+
+h1 {
+  @apply text-success text-5xl;
+}
