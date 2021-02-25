@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Description of the site">
     <meta name="author" content="Margaux Dupuy">
 
-    <title>Webpack and TailwindCSS Startterkit</title>
+    <title>Webpack and TailwindCSS Starterkit</title>
   </head>
 
   <body>
-    <section id="index">
-      <h1>Hello Starterkit !</h1>
-
-
-    </section>
+    <main class="p-8 min-h-full bg-gray-200">
+      <article class="shadow-xl max-w-md rounded-lg overflow-hidden bg-white">
+        <div class="p-8">
+          <h1 class="text-4xl uppercase tracking-widest font-bold mb-8">
+            Hello Starterkit !
+          </h1>
+          <ul>
+            <li class="text-gray-500">
+              <em class="text-gray-900">npm start</em> for development
+            </li>
+            <li class="text-gray-500">
+              <em class="text-gray-900">npm run build</em> for production
+            </li>
+          </ul>
+          <hr class="my-8" />
+          <p class="text-sm">
+            This starter kit takes care of minification and purging when
+            building for production.
+          </p>
+        </div>
+      </article>
+    </main>
   </body>
 
   <footer>
